@@ -231,6 +231,9 @@
     gap: 10px;
     max-width: 410px;
   }
+  .card-wrapper {
+    overflow-y: hidden;
+  }
   .slide-container {
     display: flex;
     flex-flow: row nowrap;
