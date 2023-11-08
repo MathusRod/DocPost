@@ -1,0 +1,346 @@
+@media (max-width: 1280px) {
+  .inicio,
+  .section1,
+  .section2,
+  .section3,
+  .section5 {
+    margin-left: 100px !important;
+    margin-right: 100px !important;
+  }
+  .section4,
+  .rodape {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  /*PRIMEIRA SEçÂO*/
+
+  .section1-left {
+    margin-top: 60px;
+    width: 443px;
+  }
+  .section1 h1 {
+    font-size: 30px;
+  }
+  .section1 img {
+    width: 450.086px;
+    height: 331.056px;
+  }
+
+  /*SEGUNDA SEçÂO*/
+  .section2-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    width: 460px;
+    padding: 0;
+  }
+  /*TERCEIRA SEçÂO*/
+  .section3 {
+    gap: 90px;
+  }
+  .section3-left {
+    padding: 0 70px;
+  }
+  .section3-right {
+    margin-right: 50px;
+  }
+  .circles {
+    margin-right: 50px;
+  }
+  /*QUARTA SEçÂO*/
+  .carrossel {
+    max-width: 1130px;
+    height: 466px;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+  }
+  .slide-container {
+    gap: 20px;
+    padding: 0 10px 0 10px;
+  }
+  .control {
+    padding: 0;
+  }
+  .star {
+    margin: 0px;
+    margin-bottom: 25.51px;
+    margin-left: 26.5px;
+    flex-shrink: 0;
+  }
+}
+@media (max-width: 420px) {
+  .inicio,
+  .section1,
+  .section2,
+  .section3,
+  .section5 {
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+  }
+  .inicio {
+    margin-bottom: 39px !important;
+    width: 360px !important;
+  }
+  .rodape {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  /*PRIMEIRA SEçÂO*/
+
+  .section1 {
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 231px;
+    width: 360px !important;
+    height: 379px;
+  }
+  .section1-left {
+    position: absolute;
+    top: 175px;
+    left: 42.5px;
+    background: white;
+    z-index: 100;
+    width: 249px;
+    padding: 15px 13px;
+  }
+  .section1-left h1 {
+    font-size: 38.936px;
+    margin-bottom: 6px;
+  }
+  .section1-left-p1 {
+    font-size: 12.758px;
+    margin: 0;
+  }
+  .section1-left-p2 {
+    margin-top: 18px;
+    font-size: 12.56px;
+  }
+  .section1 img {
+    width: 360px;
+  }
+  .section1-left button {
+    width: 249px;
+  }
+
+  /*SEGUNDA SEçÂO*/
+
+  .section2 {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .section2-left {
+    width: 360px;
+  }
+  .section2-left h2 {
+    color: #303030;
+    font-family: Roboto Condensed;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  .section2-left p {
+    color: #404040;
+    font-family: Roboto Condensed;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170.187%;
+  }
+  .section2-right {
+    display: grid;
+    grid-template-columns: 170px 170px;
+    gap: 16.576px;
+    width: 360px;
+  }
+  .section2-right div {
+    display: flex;
+    width: 152px;
+    height: 151.145px;
+    padding: 9px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6.38px;
+  }
+  .section2-right img {
+    width: 31.901px;
+    height: 31.901px;
+    flex-shrink: 0;
+  }
+  .section2-right h3 {
+    font-size: 15.312px;
+  }
+  .section2-right p {
+    font-size: 12.824px;
+  }
+
+  /*TERCEIRA SEçÂO*/
+
+  .section3 {
+    padding: 30px 0;
+    width: 360px;
+    flex-direction: column-reverse;
+    gap: 60px;
+  }
+  .section3-right {
+    width: 318.225px;
+    padding: 1px 0px 33.108px 0px;
+    height: 200px;
+    margin: 0;
+  }
+  .section3-right h2 {
+    font-size: 20px;
+  }
+  .section3-right p {
+    font-size: 14px;
+    letter-spacing: 1.68px;
+  }
+  .section3-left {
+    padding: 0;
+  }
+  .circles {
+    margin: 20px 0;
+  }
+
+  /*QUARTA SEçÂO*/
+
+  .section4 {
+    padding: 40px 0 90px 0;
+  }
+  .section4 h2 {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+  }
+  .section4 p {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 14px;
+    line-height: 170.187%; /* 23.826px */
+  }
+  .carrossel {
+    display: flex;
+    height: 300px;
+    padding: 2.747px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: 410px;
+  }
+  .slide-container {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 0;
+    padding: 0;
+    height: 200px;
+    width: 200px;
+    
+  }
+  .card {
+    width: 200px;
+    min-height: 200px;
+    gap: 0;
+    margin: 0;
+    box-shadow: none;
+  }
+  .star {
+    margin-bottom: 12.47px;
+    margin-left: 8.65px;
+  }
+  .star img {
+    width: 8.24px;
+    height: 7.251px;
+  }
+  .section4 .card h3 {
+    font-size: 14px;
+    margin-top: 10.4px;
+    margin-left: 8.65px;
+  }
+  .section4 .card p {
+    font-size: 12px;
+    letter-spacing: 1.6px;
+    margin: 0 8.65px 10px 8.65px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .section4 .card-inicio h3 {
+    margin-top: 14.48px;
+  }
+  .section4 .card-inicio p {
+    margin-bottom: 17.47px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .btn-left,
+  .btn-right {
+    margin: 0;
+    width: 60px;
+    height: 60px;
+  }
+  .control svg {
+    width: 50px;
+    height: 50px;
+  }
+
+  /*QUINTA SEçÂO*/
+  .section5{
+    margin-bottom: 10px;
+  }
+  .section5 h2 {
+    font-size: 20px;
+  }
+  .section5 p {
+    font-size: 14px;
+  }
+  .section5 dt {
+    width: 353px;
+  }
+  .section5 dt p {
+    font-size: 11.471px;
+  }
+  .section5 dt img {
+    width: 19.665px;
+    height: 19.665px;
+  }
+  .section5 dd {
+    font-size: 11px;
+    width: 333px;
+    padding: 5px;
+  }
+
+  /*RODAPÉ*/
+
+  .all-logos {
+    height: 46.375px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+  }
+  .logo-name {
+    width: 64.92px;
+    height: 46.375px;
+  }
+  .logo-name img {
+    width: 34.952px;
+    height: 33.314px;
+  }
+  .logo-name span {
+    font-size: 12px;
+  }
+  .redes-sociais {
+    width: 116.76px;
+    padding: 0;
+    padding-top: 5px;
+  }
+  .redes-sociais img {
+    width: 23.023px;
+    height: 23.023px;
+  }
+  .rodape p {
+    margin-top: 20px;
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,30 @@
+.inicio {
+  margin: 8px 200px 60px 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}
+.login-btn {
+  background: #369fff;
+  width: 108px;
+  height: 32px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16.784px;
+  font-weight: 700;
+  letter-spacing: 1.343px;
+  margin: auto 0;
+  border-radius: 5.617px;
+  border-color: transparent;
+  display: flex;
+  width: 107.9px;
+  padding: 5.994px;
+  justify-content: center;
+  align-items: center;
+  gap: 5.994px;
+  cursor: pointer;
+}
+.login-btn:hover {
+  background: #0587fe;
+}

@@ -1,0 +1,54 @@
+.rodape {
+  padding: 0 200px 15px 200px;
+  border-top: 1px solid;
+  border-color: #369fff;
+}
+
+.all-logos {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+.logo-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  padding: 7.419px;
+}
+.logo-name img {
+  width: 47.483px;
+  height: 45.257px;
+}
+.logo-name span {
+  color: #369fff;
+  font-family: Audiowide;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.75px;
+}
+.redes-sociais {
+  display: flex;
+  flex-direction: row;
+  width: 290.831px;
+  padding: 7.419px;
+  justify-content: center;
+  align-items: center;
+  gap: 11.17px;
+}
+.rodape p {
+  color: #369fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.75px;
+  margin: 0;
+}
