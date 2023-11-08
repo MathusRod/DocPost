@@ -48,10 +48,12 @@
   display: flex;
   justify-content: center;
   gap: 28px;
-  cursor: pointer;
 }
 .circulo {
   fill-opacity: 0.5;
+}
+circle {
+  cursor: pointer;
 }
 .circulo.active {
   fill-opacity: 1;
