@@ -3,18 +3,18 @@ export default function initCarrossel() {
   const slider = document.querySelector(".card-wrapper");
   const cards = document.querySelectorAll(".card");
 
-  if (window.innerWidth > 420) {
-    cards[1].classList.add("card-inicio");
+  if (window.innerWidth > 500) {
+    cards[1].classList.add("startCard");
     controls.forEach((control) => {
       control.addEventListener("click", () => {
         if (control.classList.contains("btn-left")) {
           slider.scrollLeft -= 700;
-          cards[2].classList.remove("card-inicio");
-          cards[1].classList.add("card-inicio");
+          cards[2].classList.remove("startCard");
+          cards[1].classList.add("startCard");
         } else {
           slider.scrollLeft += 700;
-          cards[1].classList.remove("card-inicio");
-          cards[2].classList.add("card-inicio");
+          cards[1].classList.remove("startCard");
+          cards[2].classList.add("startCard");
         }
       });
     });
@@ -22,9 +22,9 @@ export default function initCarrossel() {
     controls.forEach((control) => {
       control.addEventListener("click", () => {
         if (control.classList.contains("btn-left")) {
-          slider.scrollLeft -= 200;
+          slider.scrollLeft -= 250;
         } else {
-          slider.scrollLeft += 200;
+          slider.scrollLeft += 250;
         }
       });
     });

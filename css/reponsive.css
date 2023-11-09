@@ -1,4 +1,4 @@
-@media (max-width: 1280px) {
+/* @media (max-width: 1280px) {
   .inicio,
   .section1,
   .section2,
@@ -13,7 +13,7 @@
     padding-right: 100px;
   }
 
-  /*PRIMEIRA SEçÂO*/
+
 
   .section1-left {
     margin-top: 60px;
@@ -27,7 +27,7 @@
     height: 331.056px;
   }
 
-  /*SEGUNDA SEçÂO*/
+
   .section2-right {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -35,7 +35,7 @@
     width: 460px;
     padding: 0;
   }
-  /*TERCEIRA SEçÂO*/
+
   .section3 {
     gap: 90px;
   }
@@ -48,7 +48,7 @@
   .circles {
     margin-right: 50px;
   }
-  /*QUARTA SEçÂO*/
+
   .carrossel {
     max-width: 1130px;
     height: 466px;
@@ -69,23 +69,21 @@
     margin-left: 26.5px;
     flex-shrink: 0;
   }
-}
-@media (max-width: 420px) {
+} */
+@media (max-width: 500px) {
   .inicio,
   .section1,
   .section2,
   .section3,
-  .section5 {
-    margin-left: 30px !important;
-    margin-right: 30px !important;
+  .section5,
+  .section-margem {
+    width: 360px;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
   .inicio {
     margin-bottom: 39px !important;
     width: 360px !important;
-  }
-  .rodape {
-    padding-left: 30px;
-    padding-right: 30px;
   }
 
   /*PRIMEIRA SEçÂO*/
@@ -229,7 +227,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    max-width: 410px;
+    width: 370px;
   }
   .card-wrapper {
     overflow-y: hidden;
@@ -239,44 +237,44 @@
     flex-flow: row nowrap;
     gap: 0;
     padding: 0;
-    height: 200px;
-    width: 200px;
-    
+    height: 250px;
+    width: 250px;
   }
   .card {
-    width: 200px;
-    min-height: 200px;
+    width: 250px;
+    height: 250px;
     gap: 0;
     margin: 0;
     box-shadow: none;
   }
-  .star {
-    margin-bottom: 12.47px;
-    margin-left: 8.65px;
+  .section4 .card .star {
+    width: 181px;
+    height: 25px;
+    gap: 10.992px;
+    left: 15px;
+    top: 50px;
   }
+
   .star img {
-    width: 8.24px;
-    height: 7.251px;
+    width: 21.984px;
+    height: 15px;
   }
   .section4 .card h3 {
-    font-size: 14px;
-    margin-top: 10.4px;
-    margin-left: 8.65px;
+    min-width: 110px;
+    height: 25px;
+    font-size: 20px;
+    left: 21px;
+    top: 10px;
+    margin: 0;
   }
   .section4 .card p {
-    font-size: 12px;
-    letter-spacing: 1.6px;
-    margin: 0 8.65px 10px 8.65px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  .section4 .card-inicio h3 {
-    margin-top: 14.48px;
-  }
-  .section4 .card-inicio p {
-    margin-bottom: 17.47px;
-    padding-left: 0px;
-    padding-right: 0px;
+    font-size: 14px;
+    letter-spacing: 0.84px;
+    left: 21px;
+    top: 80px;
+    width: 193px;
+    margin: 0;
+    padding: 0;
   }
   .btn-left,
   .btn-right {
@@ -290,7 +288,7 @@
   }
 
   /*QUINTA SEçÂO*/
-  .section5{
+  .section5 {
     margin-bottom: 10px;
   }
   .section5 h2 {
@@ -300,19 +298,27 @@
     font-size: 14px;
   }
   .section5 dt {
-    width: 353px;
+    width: 364px;
   }
   .section5 dt p {
     font-size: 11.471px;
+    letter-spacing: 1.835px;
   }
-  .section5 dt img {
-    width: 19.665px;
-    height: 19.665px;
+  .faq-btn {
+    padding: 5.74px;
+    width: 31.13615px;
+    height: 31.13615px;
+    background: url("../img/chevron-DOWN-mini.svg") no-repeat;
+    background-size: cover;
+  }
+  .section5 dt.ativo .faq-btn {
+    background: url("../img/chevron-UP-mini.svg") no-repeat;
+    background-size: cover;
   }
   .section5 dd {
     font-size: 11px;
-    width: 333px;
-    padding: 5px;
+    width: 324px;
+    padding: 14px;
   }
 
   /*RODAPÉ*/

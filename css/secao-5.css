@@ -1,5 +1,6 @@
 .section5 {
-  margin: 0 200px;
+  margin: 0 auto;
+  width: 1080px;
   margin-bottom: 60px;
   display: flex;
   flex-direction: column;
@@ -33,6 +34,7 @@
   border-radius: 11.022px;
   border: 1.378px solid #369fff;
   cursor: pointer;
+  position: relative;
 }
 .section5 dt.ativo {
   margin-bottom: 0;
@@ -48,11 +50,18 @@
   line-height: normal;
   letter-spacing: 3.086px;
 }
-.section5 dt img {
-  padding: 5px;
-  width: 40px;
-  height: 40px;
+.faq-btn {
+  width: 42.067px;
+  height: 42.067px;
   flex-shrink: 0;
+  background: url("../img/chevron-DOWN.svg");
+  
+  border: none;
+  position: absolute;
+  right: 15px;
+}
+.section5 dt.ativo .faq-btn{
+  background: url("../img/chevron-UP.svg");
 }
 .section5 dd {
   width: 500px;
@@ -60,7 +69,7 @@
   margin: 0 auto;
   margin-bottom: 20px;
   padding: 38px 41px;
-  background: white;
+  background: #F7F7F7; 
   border-radius: 11.022px;
   border: 1.378px solid #369fff;
   border-top: 0;

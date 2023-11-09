@@ -1,6 +1,7 @@
 .section3 {
   display: flex;
-  margin: 0 200px;
+  margin: 0 auto;
+  width: 1080px;
   padding: 32.037px 0px;
   justify-content: center;
   align-items: center;

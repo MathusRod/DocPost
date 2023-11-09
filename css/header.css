@@ -1,5 +1,6 @@
 .inicio {
-  margin: 8px 200px 60px 200px;
+  margin: 8px auto 60px auto;
+  width: 1080px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;

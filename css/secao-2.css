@@ -1,5 +1,6 @@
 .section2 {
-  margin: 0 200px 160px 200px;
+  margin: 0 auto 160px auto;
+  width: 1080px;
   display: flex;
   justify-content: space-between;
 }

@@ -1,7 +1,11 @@
 .rodape {
-  padding: 0 200px 15px 200px;
+  padding: 0 0 15px 0;
   border-top: 1px solid;
   border-color: #369fff;
+}
+.section-margem {
+  width: 1080px;
+  margin: 0 auto;
 }
 
 .all-logos {
